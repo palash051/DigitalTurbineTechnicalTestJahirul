@@ -1,22 +1,14 @@
-This engineering challenge is intended to showcase:
+Digital Turbine Android Technical Test
 
-How you rapidly develop solutions that are readable, maintainable, and follow best practices
-How you would structure a project
-What skills, talents, and diverse perspectives you can bring to bear at Vorto
-Description
-Using Yelp’s API, build an Android app using Kotlin for searching and displaying business establishments within a set distance from the user’s current location.
 
-Your app should consists of at least 2 screens.
+Create an Android app that consists of two screens. The first screen contains a scrolling list of products, which uses the following URL as the datasource. In this screen, each item should display at least name, thumbnail, rating of the product. When the user clicks on one of the items, it brings the user to the second screen. The second screen should contain all information provided by the aforementioned datasource. Clicking the back button should bring the user back to the first screen. 
 
-The first screen should take an input and display the search results
-The second screen should have a map with the users's current location and a dropped pin on the business location and some details regarding the business. (e.g. Name, review ratings, address, distance etc.)
-Resources
-Android Studio
-Kotlin
-Yelp API
-When You’re Done
-Push your project to Github, and send devgroup@shaleapps.com the following:
+ http://ads.appia.com/getAds?id=236&password=OVUJ1DJN&siteId=10777&deviceId=4230&sessionId=techtestsession&totalCampaignsRequested=10
 
-Link to the Github repo
-The APK file
-Any relevant steps on how to test/use as needed
+ 
+For every request to the URL above, add a parameter called “lname” and insert your last name as the value.
+
+Use of 3rd party libraries is allowed. Please consider unit testing and other code quality concerns as necessary.
+
+Please submit completed work to a github repository and provide the link to your DT contact.
+
